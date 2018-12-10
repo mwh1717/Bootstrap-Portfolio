@@ -2,32 +2,91 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/bootstrapstyle.css">
-    <title>Michael W Howell Bootstrap</title>
-
 </head>
 
 
-<header class="row">
-    <div class="col-sm-3">
-        <h1>Michael W Howell</h1>
-    </div>
-    <div class="col-sm-3">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <div class="container-fluid" id="navcontainer">
+
+            <div class="michaeldiv col-xs-0 col-sm-0 col-md-0 col-lg-5 col-xl-1">
+
+            </div>
+
+            <div class="michaeldiv col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-3">
+                <h1 class="ml-auto">Michael W Howell</h1>
+            </div>
+
+            <div class="michaeldiv col-xs-0 col-sm-0 col-md-0 col-lg-5 col-xl-2">
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="index.html">About Me<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="portfolio.hmtl">Products</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact Me</a>
+            <div class="collapse navbar-collapse col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-link1" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-link2" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-link3" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!--Title-->
+    <div class="container">
+        <div class="row" id="title">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                <h2>Portfolio</h2>
+            </div>
+        </div>
+        <hr class="light" id="divide">
+    </div>
+
+    <!--Content-->
+    <div class="container">
+    <div class="row" align="center">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img class="placehold" src="assets/images/placeholder.png">
+            <p class="inside">Project 1</p>
+        </div>    
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img class="placehold" src="assets/images/placeholder.png">
+            <p class="inside">Project 2</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img class="placehold" src="assets/images/placeholder.png">
+            <p class="inside">Project 3</p>
+        </div>
+    </div>
+
+
+
+
+    <!--Footer-->
+    <footer class="fixed-bottom">
+        <div class="container-fluid">
+            <div class="row text-center" id="foot">
+                <div class="col-12">
+                    <br>
+                    MichaelWHowell
                 </div>
-</header>
+            </div>
+        </div>
+    </footer>
