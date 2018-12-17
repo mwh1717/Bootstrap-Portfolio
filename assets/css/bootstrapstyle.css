@@ -77,6 +77,16 @@ h2 {
     height: auto;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgrey;
+    text-decoration: none;
+}
+
 .inside {
     position: relative;
     bottom: 25%;
