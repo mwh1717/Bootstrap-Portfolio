@@ -114,6 +114,10 @@ a:hover {
     line-height: 80%;
 }
 
+#portfolioContainer {
+    margin-bottom: 5%;
+}
+
 
 
 /*MEDIA QUERY*/
