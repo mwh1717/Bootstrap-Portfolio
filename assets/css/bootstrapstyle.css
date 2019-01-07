@@ -75,6 +75,7 @@ h2 {
 .placehold {
     width: 80%;
     height: auto;
+    border: 3px solid rgb(66, 66, 66);
 }
 
 a {
